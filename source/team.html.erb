@@ -1,0 +1,20 @@
+
+
+  <div id="about">
+    <div>
+      <h1>This template was built with <i class="fa fa-heart heart"></i> at Le Wagon</h1>
+      <ul class="list-inline text-center">
+        <% data.users.each do |user| %>
+          <li>
+            <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{user.github_nickname}", class: "img-circle" %>
+            <h2><%="#{user.name}"%></h2>
+            <p>
+              <a href="#"><i class="fab fa-github"></i></a>
+              <%= link_to "#{user.github_nickname}","https://github.com/#{user.github_nickname}"%>
+            </p>
+          </li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+

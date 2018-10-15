@@ -1,3 +1,14 @@
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#home-flats {
+    padding: 100px 0;
+}
 .card {
     height: 200px;
     text-shadow: 0 1px 3px rgba(0,0,0,0.6);
@@ -40,3 +51,11 @@
     background: black;
     opacity: 0;
 }
+
+#recommended-flats h2{
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
